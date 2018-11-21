@@ -20,11 +20,6 @@
       <version>3.5.4</version>
     </dependency>
     <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-lang-groovy</artifactId>
-      <version>3.5.4</version>
-    </dependency>
-    <dependency>
 
       <groupId>com.amazonaws</groupId>
       <artifactId>aws-lambda-java-core</artifactId>
@@ -74,9 +69,6 @@
               </transformers>
               <artifactSet>
                 <excludes>
-                  <exclude>io.netty:*</exclude>
-                  <exclude>io.vertx:vertx-lang-groovy:*</exclude>
-                  <exclude>org.codehaus.groovy:groovy-all:*</exclude>
                 </excludes>
               </artifactSet>
             </configuration>
